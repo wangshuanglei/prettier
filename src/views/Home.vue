@@ -11,6 +11,12 @@ import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
   name: "Home",
+  data() {
+    return {
+      ab: "22",
+      aa: "1111"
+    };
+  },
   components: {
     HelloWorld
   }
